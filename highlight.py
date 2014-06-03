@@ -45,7 +45,7 @@ class Highlighter:
         """Make a context-sensitive sample with optional highlights
         
         `text` is the source text to summarise.
-        `query` is an iterable of normalised query terms
+        `query` is an iterable of normalised query terms, or matcher function objects
         `maxlen` is the maximum length of the generated summary.
         `maxwords` is the maximum number of words in the generated summary.
         `hl` is a pair of strings to insert around highlighted terms, e.g. ('<b>', '</b>')
@@ -141,7 +141,7 @@ class Highlighter:
         Add highlights (string prefix/postfix) to a string.
         
         `text` is the source to highlight.
-        `query` is an iterable of normalised query terms
+        `query` is an iterable of normalised query terms, or matcher function objects
         `hl` is a pair of highlight strings, e.g. ('<i>', '</i>')
         `no_tags` strips HTML markout iff True
         """

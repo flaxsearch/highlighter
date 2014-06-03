@@ -10,3 +10,7 @@ To run a simple demo:
 snowballstemmer by Yoshiki Shibukawa, released under BSD license:
 
     https://pypi.python.org/pypi/snowballstemmer 
+
+sampledoc.txt cut from Wikipedia
+
+    http://en.wikipedia.org/wiki/Newfoundland_(dog)
